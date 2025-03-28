@@ -13,6 +13,8 @@
 **Мягкий дедлайн**: 11.04.25
 
 ### Полезные ссылки
+[Папка с презентациями курса](https://drive.google.com/drive/folders/1uS0FTxpe70UFMIzTZ1X1YX_Ga1SwtPw9?usp=sharing)
+
 Проксирование запросов в nuxt.config
 ```js
 proxy: {
