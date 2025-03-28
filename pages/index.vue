@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center text-green-500 mt-10">
+  <div class="mt-10 text-center text-green-500">
     Hello world!
     <div class="text-black">
       {{ storeMsg }}
@@ -9,12 +9,12 @@
 
 <script>
 export default {
-  name: "indexPage",
+  name: 'indexPage',
 
   computed: {
-    storeMsg () {
+    storeMsg() {
       return this.$store.getters['modules/msgModule/msg']
-    }
-  }
+    },
+  },
 }
 </script>
