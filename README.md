@@ -1,4 +1,31 @@
-## Build Setup
+## Задание
+Создать проект на любую тематику
+
+Необходимо:
+- Реализовать 4 обращения к любой API
+- Импользовать Vuex для глобального состояния
+- Использовать TailwindCSS для стилей
+- Интерактив страницы с Options API
+
+Прием задания будет по дату последнего комита
+При гоотвности сделать Мр в мастер 
+
+**Мягкий дедлайн**: 11.04.25
+
+### Полезные ссылки
+Проксирование запросов в nuxt.config
+```js
+proxy: {
+  '/api/': {target: '*your api*', pathRewrite: {'^/api/': ''}}
+}
+```
+Настройка axios [Extending Axios](https://axios.nuxtjs.org/extend)
+
+[Tailwind Cheat Sheet](https://nerdcave.com/tailwind-cheat-sheet)
+
+[Vuex Docs](https://vuex.vuejs.org/guide/state.html)
+
+### Build Setup
 
 ```bash
 # install dependencies
